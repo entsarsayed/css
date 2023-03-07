@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Spirax&display=swap');
+*{
+   /*padding: 0;*/
+    margin: 0;
+    font-family: sans-serif;
+   
+    
+
+}
+header{
+
+    margin-bottom: 100px ;
+    background-color: #3d4a59;
+    color: #fff;
+    border-radius: 0 0 70px  70px;
+    
+}
+header h1{
+    
+    margin-bottom: 35px;
+    
+}
+.parent{
+
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    
+
+}
+.parent li a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 6px;
+   display: inline-block;
+}
+.parent li a:hover{
+border-bottom: 2px solid red;
+font-size: 20px;
+color: #7650df;
+}
+.mode{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+li{
+    list-style-type: none;
+    font-size: 18px;
+
+    
+    
+    
+}
+h1{
+    
+    text-align: center;
+    padding: 10px 0;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #3d4a59;
+    color: #fff;
+    border-radius: 17px;
+    padding: 15px;
+background-color: #3d4a59;
+}
+section{
+    
+
+    margin-bottom: 100px ;
+    box-shadow: 5px 5px 25px rgb(185, 170, 170);
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+    padding: 20px 0;
+
+}
+.my-img{
+    width: 250px;
+    border-radius: 50%;
+    border-top: 3px solid rgb(233, 125, 125);
+    border-bottom: 3px solid rgb(202, 19, 19);
+    border-right: 3px solid rgb(73, 66, 30);
+    border-left: 3px solid rgb(161, 149, 77);
+}
+.left-section, .right-section{
+    width: 49%;
+    text-align: center;
+    margin-top: 60px;
+
+}
+article h5{
+    font-size: 26px;
+    font-family: 'Spirax', cursive;
+}
+.flex{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left-section h3{
+    font-size: 26px;
+    margin: 20px 0;
+}
+.left-section p{
+    font-size: 20px;
+    margin: 20px 0;
+} 
+.youtube{
+    background-color: red;
+}
+.facebook, .youtube{
+    background-color: royalblue;
+    color: #fff;
+    margin: 10px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+footer{
+    
+    text-align: center;
+
+}
+.design{
+    background-color: #3d4a59;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+
+}
+.follow{
+    box-shadow: 0 5px 30px rgb(0, 0, 0 / 25%);
+    border-radius: 10px;
+    padding: 16px 0;
+    text-align: center;
+    margin: 0 auto 10px;
+    border-top: 6px solid #3d4a59;
+    opacity: 0.9;
+    width: 99%;
+}
+.follow a{
+    border: 1px solid #3d4a59;
+    border-radius: 4px;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+.follow a:hover{
+    padding: 5px 12px;
+    background-color: rgb(16, 73, 243);
+    color: #fff;
+}
